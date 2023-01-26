@@ -29,7 +29,7 @@ function desemcriptar(){
         }
     else if(letras.indexOf(enviado.charAt(i))!=-1){
     var textCifrado=enviado.replaceAll('ai','a').replaceAll('enter','e').replaceAll('imes','i').replaceAll('ober','o').replaceAll('ufat','u');
-    document.getElementById('muñeco').style.display='none';
+    document.getElementById('mucheco').style.display='none';
     document.getElementById('mensaje').innerHTML='';
     document.getElementById('encriptado').innerHTML=textCifrado;
     ingresodetexto.reset();
