@@ -13,7 +13,7 @@ function encriptar(){
         }
         else if(letras.indexOf(enviado.charAt(i))!=-1){
             var textCifrado=enviado.replaceAll('a','ai').replaceAll('e','enter').replaceAll('i','imes').replaceAll('o','ober').replaceAll('u','ufat');
-            document.getElementById('muñeco').style.display='none';
+            document.getElementById('mucheco').style.display='none';
             document.getElementById('mensaje').innerHTML='';
             textoEncrip=document.getElementById('encriptado').innerHTML=textCifrado;
             var copiado=document.getElementById('copiar').style.display='block';
