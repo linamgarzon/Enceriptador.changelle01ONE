@@ -1,0 +1,295 @@
+body,.texto{
+    background: #E5E5E5;
+}
+.logo{
+    position: absolute;
+    left: 44px;
+    top: 20px;
+}
+.texto{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 32px;
+    color: #0A3871;
+    border: 0;
+    outline: none;
+}
+::placeholder{
+    color: #0A3871;
+}
+.muñeco{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+.texto-encriptado{
+    position: absolute;
+    margin: 10px 0 0 70%;
+    width: 400px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+.mensaje{
+    width: 300px;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    color: #343A40;
+    line-height: 28.8px;
+    margin: auto;
+}
+.encriptado{
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Andika', sans-serif;
+    line-height: 24px;
+    color: #343A40;
+    margin: 30px auto;
+    border: none;
+    outline: none;
+    margin-bottom: 180px;
+}
+.bottones{
+    position: absolute;
+    margin: 600px 0 0 100px;
+    width: 900px;
+}
+.exclamacion{
+    display: inline;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+.letras{
+    font-family: 'Andika', sans-serif;
+    opacity: 80%;
+    margin: 0 0 30px 0 ;
+}
+.encriptar{
+    background: #0A3871;
+    padding: 20px 100px 20px 100px;
+    color: white;
+    border: #0A3871;
+    border-radius: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.desemcriptar, .copiar{
+    background: #D8DFE8;
+    padding: 20px 100px 20px 100px;
+    color:#0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.copiar{
+    background: white;
+    margin-top: 85%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+
+}
+@media screen and (max-width:1000px){
+    .logo{
+        position: absolute;
+        width: 30px;
+        height: auto;
+        top: 40.42px;
+        left: 40px;
+    }
+    .texto{
+        font-size: 30px;
+        line-height: 24px;
+        top: 15%;
+        left: 4%;
+        height: 40%;
+        width: 88%;
+    }
+    .muñeco{
+        display: none;
+    }
+    .texto-encriptado{
+        position: absolute;
+        margin: 99% 0 0 4%;
+        width: 92%;
+        background: #FFFFFF;
+        border-radius: 25px;
+        text-align: center;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .mensaje{
+        width: 100%;
+        font-family: 'Andika', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        color: #343A40;
+        line-height: 35px;
+        margin-top: 10%;
+    }
+    .encriptado{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Andika', sans-serif;
+        line-height: 25px;
+        color: #343A40;
+        box-sizing:content-box;
+        height: auto;
+    }
+    .exclamacion{
+        display: inline;
+        margin-right: 2%;
+        float: left;
+        width: 2%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .letras{
+        font-family: 'Andika', sans-serif;
+        opacity: 80%;
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin: 0 0 2% 0 ;
+    }
+    .bottones{
+    position: absolute;
+    margin: 82% 0 0 4%;
+    width: 100%;
+    }
+    .encriptar{
+        background: #0A3871;
+        padding: 3% 15% 3% 15%;
+        color: white;
+        border: #0A3871;
+        border-radius: 25px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .desemcriptar{
+        background: #D8DFE8;
+        padding: 3% 15% 3% 15%;
+        color:#0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    .copiar{
+        background: white;
+        padding: 3% 40% 3% 40%;
+        color:#0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 25px;
+        font-size: 20px;
+        margin: auto;
+        margin-bottom: 3%;
+    }
+}
+@media screen and (max-width:550px){
+    .logo{
+        position: absolute;
+        width: 5%;
+        height: auto;
+        top: 40.42px;
+        left: 4%;
+    }
+    .texto{
+        font-size: 20px;
+        line-height: 24px;
+        top: 15%;
+        left: 4%;
+        height: 40%;
+        width: 88%;
+    }
+    .muñeco{
+        display: none;
+    }
+    .texto-encriptado{
+        position: absolute;
+        margin: 170% 0 0 4%;
+        width: 92%;
+        background: #FFFFFF;
+        border-radius: 25px;
+        text-align: center;
+        box-sizing: border-box;
+        height: auto;
+    }
+    .mensaje{
+        width: 100%;
+        font-family: 'Andika', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+        color: #343A40;
+        line-height: 35px;
+        margin-top: 5%;
+    }
+    .encriptado{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Andika', sans-serif;
+        line-height: 25px;
+        color: #343A40;
+        margin-bottom: 2%;
+        margin-top: 0%;
+    }
+    .exclamacion{
+        display: inline;
+        margin-right: 2%;
+        float: left;
+        width: 4%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .letras{
+        font-family: 'Andika', sans-serif;
+        opacity: 80%;
+        font-size: 14px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin: 0 0 2% 0 ;
+    }
+    .bottones{
+    position: absolute;
+    margin: 122% 0 0 4%;
+    width: 100%;
+    }
+    .encriptar{
+        background: #0A3871;
+        padding: 5% 40% 5% 39%;
+        color: white;
+        border: #0A3871;
+        border-radius: 25px;
+        margin-right: 25px;
+        font-size: 15px;
+        margin-bottom: 2%;
+    }
+    .desemcriptar{
+        background: #D8DFE8;
+        padding: 5% 36% 5% 35%;
+        color:#0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 25px;
+        font-size: 15px;
+    }
+    .copiar{
+        background:white;
+        padding: 5% 40% 5% 40%;
+        color:#0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 25px;
+        font-size: 15px;
+        margin-top: 20%;
+        margin-bottom: 5%;
+    
+    }
+}
