@@ -18,7 +18,7 @@ body,.texto{
 ::placeholder{
     color: #0A3871;
 }
-.muñeco{
+.mucheco{
     width: 300px;
     height: auto;
     margin-top: 100px;
@@ -111,7 +111,7 @@ body,.texto{
         height: 40%;
         width: 88%;
     }
-    .muñeco{
+    .mucheco{
         display: none;
     }
     .texto-encriptado{
@@ -209,7 +209,7 @@ body,.texto{
         height: 40%;
         width: 88%;
     }
-    .muñeco{
+    .mucheco{
         display: none;
     }
     .texto-encriptado{
