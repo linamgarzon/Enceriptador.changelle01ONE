@@ -58,6 +58,7 @@ function desemcriptar(){
     document.getElementById('mucheco').style.display='none';
     document.getElementById('mensaje').innerHTML='';
     document.getElementById('encriptado').innerHTML=textCifrado;
+    var copiado=document.getElementById('copiar').style.display='block';
     ingresodetexto.reset();
 }
 function copiar(){
